@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/sample.css">
+  <script src = "js/janken.js" defer></script>
+  <title>じゃんけん</title>
+</head>
+  <!-- タイトル-->
+<body>
+  <header>
+    <h3>ゴールデンフリーザ様のデスボール！</h3>
+  </header>
+
+  <main>
+    <!-- ゴクウのHP -->
+    <section class="enemy">
+      <h4 id = "enemyName" class="enemyName"></h4>
+      <div class="hp">
+        HP:<div id = "currentEnemyHp"></div>　
+        <div id = "maxEnemyHp"></div>
+      </div>
+      <div id = "attackPoint">ダメージ数</div>
+      <!-- ゴクウ画像　ビデオの設定 -->
+    </section>
+    <section class="wordOutput">
+      <img src="image/GGG/9dbab3202a6331c5e82ae7fe38a104c8.png" id="wilderness" class ="wilderness" >
+      <img  id="com_hand1" class = 'com_han1'>
+       <!-- 条件で表示　JS -->
+      <video id="video1" class = "video1" src="movie/b59l-f.mp4" width="100%"></video>
+      <video id="video" class = "video" src="movie/death.mp4" width="100%"></video>
+    </section>
+    <!-- フリーザ -->
+    <section class="player">
+      <h4 id = "playerName"></h4>
+      <ul>
+        <img src="image/FFF/freeza_0016.png" class="fff"  id="sampleImage">
+        <img src="image/FFF/ギニュー_ドラゴンボールファイターズ.png"   id="gu_btn" class="fff">
+        <img src="image/FFF/rb37.jpg"  id="cho_btn" class="fff">
+        <img src="image/FFF/DZEOBCoV4AAgMXK.jpg"   id="par_btn" class="fff">
+        
+      </ul>
+      <div class="hp">
+        HP:<div id = "currentPlayerHp"></div>
+        <div id = "maxPlayerHp"></div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
+
+
+ 

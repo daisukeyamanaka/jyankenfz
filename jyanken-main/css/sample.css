@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 16px;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+main{
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    max-width: 500px;/*変更点  画面ちっちゃくした*/
+    width: 80%;
+}
+/*黒囲んでる*/
+section{
+    background-color: #fff;
+    padding: 5px;/*変更点*/
+    border-radius: 5px;
+}
+.enemy {
+    margin-bottom: 10px;
+}
+.enemyName{
+
+}
+.player{
+
+}
+.wordOutput{
+    margin-bottom: 10px;
+}
+.hp{
+    display: flex;
+    justify-content: center;
+}
+/*hpの隣に「/」を加える*/
+.hp > div:first-of-type::after{
+    margin: 0 5px;
+    content: '/'
+}
+ul{
+    padding: 0;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 2px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.imag{
+    position: relative;
+    width: 200px;
+    height: 40px;
+}
+.wilderness{
+    width: 100%;
+}
+.com_han1{
+
+    width: 100%;
+    display: none;
+}
+.video1{
+    display: none;
+}
+.video{
+    display: none;
+}
+.fff{
+    width: 120px;
+    height:90px;
+}
+/*画像をガタガタする　https://fukuro-press.com/jqeury-css-shaking-button/*/
